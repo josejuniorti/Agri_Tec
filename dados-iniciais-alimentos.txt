@@ -1,0 +1,15 @@
+Pequeno rascunho inicial com os dados nutricionais dos alimentos
+
+
+BANANA:
+
+Uma unidade de banana(cerca de 80g) contém 111kcal, 26, 9 de carboidratos, 1,2 g de fibras, 
+23,7 mg de magnésio, 262 de potássio e 12,6 mg de vitamina C.
+
+Faz bem para o sistema digestivo.
+Aumenta a saciedade.
+Melhora o Humor.
+Reduz câimbras e dores musculares.
+Pode ser benéfica para a visão.
+Previne a leucemia.
+
