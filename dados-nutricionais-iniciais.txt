@@ -3,12 +3,69 @@ Pequeno rascunho inicial com os dados nutricionais dos alimentos
 
 BANANA:
 
-Uma unidade de banana(cerca de 80g) contém 111kcal, 26, 9 de carboidratos, 1,2 g de fibras, 
-23,7 mg de magnésio, 262 de potássio e 12,6 mg de vitamina C.
-
 Faz bem para o sistema digestivo.
 Aumenta a saciedade.
 Melhora o Humor.
 Reduz câimbras e dores musculares.
 Pode ser benéfica para a visão.
 Previne a leucemia.
+
+
+MAÇÃ:
+
+A maçã melhora a função cerebral.
+É boa para o coração.
+Diminui o risco de diabetes.
+Afasta a prisão de ventre.
+Previne o câncer.
+Combate a asma.
+Previne cáries.
+Fortalece o sistema imunológico.
+Previne doenças oculares.
+Aumenta a saúde óssea.
+Diminui o colesterol.
+Retarda o envelhecimento.
+Alivia problemas de estômago.
+Previne a obesidade.
+Afasta o risco de Alzheimer e Parkinson.
+
+UVA:
+
+Faz bem para a saúde do coração.
+Ajuda a controlar o açucar do sangue.
+Melhora a saúde ocular.
+Combate infecções.
+Retarda o envelhecimento.
+Diminui a prisão de ventre.
+Diminui o risco de câncer.
+Melhora o funcionamento cerebral.
+
+
+Laranja:
+
+Ajuda no funcionamento do sistema disgestivo.
+Protege contra doenças cardiovasculares.
+Fortalece o sistema imunológico.
+Retarda o envelhecimento.
+Reduz risco de AVC.
+Previni a pedra nos rins.
+Diminui o colesterol.
+Evita o câncer.
+Melhora a memória.
+Protege os olhos.
+Protege o coração.
+Diminui a prisão de ventre.
+Previni gripes e resfriados.
+Melhora o humor.
+
+
+Abacaxi:
+
+Atua como anti-inflamatório.
+Preveni doenças cardíacas e câncer.
+Reduz os riscos de trombose .
+Alivia as dores nas articulações .
+Ajuda na perda de peso.
+Melhora a saúde da pele e dos cabelos.
+Diminui as dores musculares do pós-treino.
+
