@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+}
+.table {
+    margin:auto;
+    width:85%;
+    border-collapse: collapse;
+    table-layout:fixed;
+}
+th {
+    padding:5px;
+    background-color:rgb(62, 211, 3);
+    font-size:13px;
+    font-family:'Anton', sans-serif;
+}
+td {
+    background-color:rgb(46, 255, 5);
+    padding:5px;
+
+}
+th, td {
+    text-align:center;
+}
+.nomes {
+    font-size:14px;
+    font-weight:bold;
+    background-color:rgb(4, 180, 4);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.borderrigh {
+    border-right-style:solid;
+    border-right-width:1px;
+    border-right-color:rgb(3, 153, 10);
+}
+.borderbott {
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-bottom-color:rgb(5, 172, 19);
+}
