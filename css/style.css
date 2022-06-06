@@ -57,8 +57,11 @@ body {
   font: 700 var(--title-font-size) var(--title-font);
   color: var(--title-color);
   -webkit-font-smoothing: auto;
+  margin-top:-150px;
 }
-
+.carousel {
+  margin-top:-100px;
+}
 .button {
   background-color: var(--base-color);
   color: var(--text-color-light);
@@ -293,16 +296,7 @@ nav.show div.icon-close {
 
 #home .text {
   margin-left: 1.5rem;
-  margin-right: 1.5rem;
   text-align: center;
-}
-
-#home .text h1 {
-  margin-bottom: 1rem;
-}
-
-#home .text p {
-  margin-bottom: 2rem;
 }
 
 /*====  ABOUT ============================ */
@@ -660,3 +654,7 @@ footer .social a:hover {
   }
 }
 
+.image-slide {
+  width:100%;
+  height:500px;
+}

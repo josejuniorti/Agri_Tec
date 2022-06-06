@@ -2,26 +2,22 @@
 <html lang="PT-BR">
   <head>
     <!-- PAGE INFO -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgriTec</title>
-
-
-    <!-- Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
 
   </head>
   <body>
@@ -48,22 +44,13 @@
 
     <main>
       <!-- HOME -->
-      <section class="section" id="home">
+      <section class="section" id="home">   
         <div class="container grid">
-          <div class="image">
-            <img
-              src="logo.png"
-              alt="logo marca da empresa"
-            />
           </div>
           <div class="text">
-            <h2 class="title">Os Melhores alimentos da região para você </h2>
             <p>
-              Um site exclusivo com os agricultores e micro-empreendedores da região da 
-              mata-sul de Pernambuco.
-            </p>
-            <!--h3>Venha agendar um horario com nossos profissionais</h3></br>
-            <a class="button" href="index1.html">Agendar um Horário</a-->
+banner            
+</p>
               
           </div>
         </div>
@@ -74,24 +61,45 @@
       <!-- DESTAQUE -->
       <section class="section" id="destaque">
         <div class="container grid">
-          <div class="image">
-            <img
-              src="grupo.PNG"
-              alt="3 mulheres sorrindo"
-            />
-          </div>
-          <div class="text">
-            <h2 class="title">DESTAQUE</h2>
-            <p>
-              AQUI É A PARTE DO DESTAQUE,ONDE VAI FICAR O CARROSSEL
-            </p>
-            <br />
-            <p>
-             ....
-            </p>
-          
-          </div>
-        </div>
+            <h2 class="title">Produtos em destaque</h2>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="6000">
+                  <img class="image-slide" src="imagens/abacaxi.jpg" class="d-block w-80" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Fruta 1</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img class="image-slide" src="imagens/abacaxi.jpg" class="d-block w-80" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Fruta 2</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="image-slide" src="imagens/abacaxi.jpg" class="d-block w-80" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Fruta 3</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
       </section>
 
       <div class="divider-2"></div>
@@ -100,9 +108,9 @@
       <section class="section" id="calendario">
         <div class="container grid">
           <header>
-            <h2 class="title">CALENDARIO DE ALIMENTOS</h2>
+            <h2 class="title">CALENDÁRIO DE ALIMENTOS</h2>
             <p class="subtitle">
-             AQUI É A PARTE ONDE VAMOS COLOCAR O CALENDARIO
+             AQUI É A PARTE ONDE VAMOS COLOCAR O CALENDÁRIO
             </p>
           </header>
           <div class="cards grid">
@@ -241,6 +249,7 @@
     <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
     <!-- swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- scrollreveal -->
@@ -248,6 +257,7 @@
 
     <!-- main.js -->
     <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
 
