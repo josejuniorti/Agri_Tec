@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(131, 87%, 6%);
+    background-color:#07260F;
 }
 .container {
     width:100%;
@@ -13,18 +13,13 @@ body {
 .itcontainer {
     width:90%;
     height:120px;
-    background-color:rgb(0, 177, 68);
+    background-color:#063111;
     border-radius:10px;
     margin-bottom:15px;
     display:flex;
     flex-direction:row;
-    opacity:100%;
-    transition: opacity 0.5s;
-    transition-timing-function: linear;
 }
-.itcontainer:hover {
-    opacity:90%;
-}
+
 
 .imgfruta {
     width:100px;
@@ -34,7 +29,7 @@ body {
 }
 .textofruta {
     font-family: 'Philosopher', sans-serif;
-    color:rgb(0, 70, 12);
+    color:#FFFFFF;
     font-weight:bold;  
     width:90%;
     height:120px;
@@ -44,27 +39,28 @@ body {
 h1,h2 {
     font-family: 'Philosopher', sans-serif;
     text-align:center;
-    color:rgb(68, 214, 0);
+    color:#FFFFFF;
 }
 .botaovoltar:link {
-    font-family: 'Philosopher', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
     display:inline-block;
     width:250px;
     height:50px;
     line-height:50px;
-    font-size:20px;
+    font-size:17px;
     text-align:center;
     text-decoration:none;
-    background-color:rgb(3, 150, 59);
+    background-color:#063111;
     border-radius:15px;
-    color:rgb(0, 0, 0);
+    color:#FFFFFF;
 }
 .botaovoltar:visited {
-    color:rgb(0, 0, 0);
+    color:#FFFFFF;
 }
 .botaovoltar:hover {
-    background-color:rgb(0, 109, 42);
+    background-color:#034213;
 }
 .botaovoltar:active {
-    color:rgb(81, 255, 0);
+    color:#FFFFFF;
 }
