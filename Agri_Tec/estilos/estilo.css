@@ -1,0 +1,34 @@
+body {
+    background-color:rgb(43, 196, 43);
+}
+.container {
+    width:100%;
+    height:auto;
+    padding:5px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+.itcontainer {
+    width:230px;
+    height:240px;
+    background-color:rgb(8, 143, 64);
+    border-radius:10px;
+    margin-right:15px;
+    margin-bottom:15px;
+    font-size:20px;
+}
+h2 {
+    text-align:center;
+}
+
+.inffruta{
+    width:230px;
+    height:240px;
+    border-radius:10px;
+    margin-right:15px;
+    margin-bottom:15px;
+
+}
