@@ -19,7 +19,7 @@
     --bs-cyan: #0dcaf0;
     --bs-black: #000;
     --bs-white:  ;
-    --bs-gray: #6c757d;
+    --bs-gray: #006400;
     --bs-gray-dark: #343a40;
     --bs-gray-100: #006400;
     --bs-gray-200:#006400;
@@ -70,7 +70,7 @@
     --bs-border-radius-2xl: 2rem;
     --bs-border-radius-pill: 50rem;
     --bs-heading-color: ;
-    --bs-link-color: #0d6efd;
+    --bs-link-color: white;
     --bs-link-hover-color: #0a58ca;
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd
